@@ -83,6 +83,9 @@ class Kb8Run
 
   def self.run(cmd, capture=false, term_output=true, input=nil, safe=true)
 
+    puts "=== debug:"
+    puts cmd
+    
     errors = []
     ok = false
     until ok
